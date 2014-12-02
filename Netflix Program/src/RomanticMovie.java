@@ -1,0 +1,24 @@
+public class RomanticMovie extends Movies {
+	public RomanticMovie() {
+		kind = "romance";
+		assumption = "chick-flick";
+	}
+
+	public void selectRomanticMovie() {
+		System.out.println("Here are the three suggestions for the " + kind + " movies.");
+
+		System.out
+				.println("\t1)Silver Linings Playbook\n\t2)Grease\n\t3)13 Going on 30");
+	}
+
+	@Override
+	public void sentenceType() {
+		System.out.println("You like " + kind + " which means you like a good "
+				+ assumption + ".");
+	}
+
+	public void goodLuck() {
+		super.goodLuck();
+
+	}
+}

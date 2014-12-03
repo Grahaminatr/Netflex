@@ -1,4 +1,4 @@
-public interface WatchThreeTypes
+public interface Genre
 	{
 	public void example();
 

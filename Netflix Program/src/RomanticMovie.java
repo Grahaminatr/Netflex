@@ -6,11 +6,10 @@ public class RomanticMovie extends Movies {
 	}
 
 	public void selectRomanticMovie() {
-		System.out.println("Here are the three suggestions for the " + kind
+		System.out.println("Here are some suggestions for the " + kind
 				+ " movies.");
 
-		System.out
-				.println("\t1)Silver Linings Playbook\n\t2)Grease\n\t3)13 Going on 30");
+		System.out.println("\t1)Silver Linings Playbook\n\t2)Grease\n\t3)13 Going on 30");
 	}
 
 	@Override

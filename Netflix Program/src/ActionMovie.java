@@ -18,4 +18,5 @@ public class ActionMovie extends Movies {
 	public void goodLuck() {
 		super.goodLuck();
 	}
+
 }

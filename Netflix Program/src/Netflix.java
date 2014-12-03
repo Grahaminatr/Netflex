@@ -22,11 +22,10 @@ public class Netflix {
 		actMov.sentenceType();
 		actMov.selectActionMovie();
 		actMov.goodLuck();
-
-	}
-
-	public void sentenceType() {
+		System.out.println();
 		
+		romMov.RomanticCom();
+
 	}
 
 }

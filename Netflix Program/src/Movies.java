@@ -13,7 +13,4 @@ public abstract class Movies {
 	}
 
 	public abstract void sentenceType();
-	
-	
-
 }

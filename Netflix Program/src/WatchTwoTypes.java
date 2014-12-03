@@ -1,3 +1,6 @@
+public interface WatchTwoTypes
+	{
+	public void example();
 
-public void interface WatchTwoTypes implements void Movies ();
-	public void sentenceType();
+	void sentenceType();
+	}

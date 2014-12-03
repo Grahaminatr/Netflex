@@ -3,15 +3,15 @@ public class ComedyMovie extends Movies{
 	public ComedyMovie()
 	{
 	kind = "comedy";
-	assumption = "laughing";
+	assumption = "a good laugh";
 	}
 	public void selectComedyMovie() {
 		System.out.println("Here are the three suggestions for the " + kind + " movies.");
-		System.out.println("\t1)White Chicks\n\t2)Freaky Friday\n\t3)School of Rock");
+		System.out.println("\t1)Ace Ventura\n\t2)Anchorman\n\t3)Airplane");
 	}
 	@Override
 	public void sentenceType() {
-		System.out.println("You like " + kind + " which means you like "
+		System.out.println("You like " + kind + " which means you might enjoy "
 				+ assumption + ".");
 	}
 	public void goodLuck() {

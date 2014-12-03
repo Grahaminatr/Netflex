@@ -1,4 +1,4 @@
-public interface WatchTwoTypes
+public interface WatchThreeTypes
 	{
 	public void example();
 

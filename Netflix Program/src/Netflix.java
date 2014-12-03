@@ -1,7 +1,7 @@
 public class Netflix {
 
 	public static void main(String[] args) {
-		RomanticMovie romMov = new RomanticMovie();
+		HorrorMovie horMov = new HorrorMovie();
 		Movies mov = new ActionMovie();
 		ComedyMovie comMov = new ComedyMovie();
 		ActionMovie actMov = new ActionMovie();
@@ -9,9 +9,9 @@ public class Netflix {
 		mov.whichType();
 		System.out.println();
 		
-		romMov.sentenceType();
-		romMov.selectRomanticMovie();
-		romMov.goodLuck();
+		horMov.sentenceType();
+		horMov.selectHorrorMovie();
+		horMov.goodLuck();
 		System.out.println();
 		
 		comMov.sentenceType();
@@ -24,7 +24,7 @@ public class Netflix {
 		actMov.goodLuck();
 		System.out.println();
 		
-		romMov.RomanticCom();
+		
 
 	}
 

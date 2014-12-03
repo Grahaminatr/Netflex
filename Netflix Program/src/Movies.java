@@ -3,13 +3,13 @@ public abstract class Movies {
 	protected String assumption;
 
 	public void whichType() {
-		System.out.println("In this program the computer gives the user three type of movie (Comedy, Romance, Action).");
-		System.out.println("It will give you three suggestions for each category.");
-		System.out.println("It will also list movies that have overlapping categories. Such as Romantic Comedies...etc.");
+		System.out.println("Netflix gives the user three type of movie (Comedy, Horror, Action).");
+		System.out.println("It will give you popular movies for each category that you may enjoy.");
+		
 	}
-	public void goodLuck()
+	public void useOfSuper()
 	{
-		System.out.println("I hope you like the suggestions!");
+		System.out.println("I hope you enjoy our movies and consider us again.");
 	}
 
 	public abstract void sentenceType();

@@ -11,12 +11,12 @@ public class ActionMovie extends Movies {
 	}
 
 	@Override
-	public void sentenceType() {
+	public void movieStyle() {
 		System.out.println("You like " + kind + " which means you like "
 				+ assumption + ".");
 	}
-	public void goodLuck() {
-		super.goodLuck();
+	public void useOfSuper() {
+		super.useOfSuper();
 	}
 
 }

@@ -10,11 +10,11 @@ public class ComedyMovie extends Movies{
 		System.out.println("\t1)Ace Ventura\n\t2)Anchorman\n\t3)Airplane");
 	}
 	@Override
-	public void sentenceType() {
+	public void movieStyle() {
 		System.out.println("You like " + kind + " which means you might enjoy "
 				+ assumption + ".");
 	}
-	public void goodLuck() {
-		super.goodLuck();
+	public void useOfSuper() {
+		super.useOfSuper();
 	}
 }

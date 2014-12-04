@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Netflix {
 
 	public static void main(String[] args) {
@@ -5,23 +6,41 @@ public class Netflix {
 		Movies mov = new ActionMovie();
 		ComedyMovie comMov = new ComedyMovie();
 		ActionMovie actMov = new ActionMovie();
+		DramaMovie draMov = new DramaMovie();
+		RomanceMovie romMov = new RomanceMovie();
+		DisneyMovie disMov = new DisneyMovie();
 
 		mov.whichType();
 		System.out.println();
 		
-		horMov.sentenceType();
+		horMov.movieStyle();
 		horMov.selectHorrorMovie();
-		horMov.goodLuck();
+		horMov.useOfSuper();
 		System.out.println();
 		
-		comMov.sentenceType();
+		comMov.movieStyle();
 		comMov.selectComedyMovie();
-		comMov.goodLuck();
+		comMov.useOfSuper();
 		System.out.println();
 		
-		actMov.sentenceType();
+		actMov.movieStyle();
 		actMov.selectActionMovie();
-		actMov.goodLuck();
+		actMov.useOfSuper();
+		System.out.println();
+		
+		disMov.movieStyle();
+		disMov.selectDisneyMovie();
+		disMov.useOfSuper();
+		System.out.println();
+		
+		draMov.movieStyle();
+		draMov.selectDramaMovie();
+		draMov.useOfSuper();
+		System.out.println();
+		
+		romMov.movieStyle();
+		romMov.selectRomanceMovie();
+		romMov.useOfSuper();
 		System.out.println();
 		
 		

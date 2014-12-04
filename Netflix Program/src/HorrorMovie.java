@@ -13,8 +13,8 @@ public class HorrorMovie extends Movies {
 	}
 
 	@Override
-	public void sentenceType() {
-		System.out.println("You like " + kind + " which means you like a good "
+	public void movieStyle() {
+		System.out.println("You like " + kind + " which means you like "
 				+ assumption + ".");
 	}
 
